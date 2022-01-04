@@ -122,7 +122,7 @@ function SignUp(props) {
                 {repeatpasswordError && <div className="errorMsg">{repeatpasswordError}</div>}
                 </div>
             
-                <button type="submit" class="btn btn-primary" onClick={navigateToLogin}>Submit</button>
+                <button type="submit" class="btn btn-primary" onClick={saveData}>Submit</button>
             
             <h4 style={{cursor:'pointer'}} onClick={navigateToLogin}>Already have an account? Login here !</h4>
         </div>
